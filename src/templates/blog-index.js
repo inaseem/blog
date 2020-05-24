@@ -16,6 +16,7 @@ class BlogIndexTemplate extends React.Component {
     const langKey = this.props.pageContext.langKey;
 
     const posts = get(this, 'props.data.allMarkdownRemark.edges');
+    console.log(posts)
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
