@@ -7,6 +7,9 @@
   "description": "Personal Blog",
   "version": "1.0.0",
   "author": "Naseem Ali",
+  "bugs": {
+    "url": "https://github.com/naseemali925/blog/issues"
+  },
   "dependencies": {
     "gatsby": "^2.0.76",
     "gatsby-plugin-catch-links": "^2.0.9",
@@ -57,7 +60,7 @@
     "start": "npm run develop",
     "build": "rm -rf public && rm -rf .cache && gatsby build",
     "now-build": "gatsby build",
-    "deploy": "npm run build && cp now.json public/ && cd public && now alias $(now) hayat.me",
+    "deploy": "npm run build && cp now.json public/ && cd public && now alias $(now) hayaat.js.org",
     "dry": "npm run build && cp now.json public/ && cd public && now",
     "js-to-jsx": "node src/utils/js-to-jsx"
   },
