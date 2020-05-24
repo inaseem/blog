@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: 'Hayat',
     author: 'Naseem Ali',
-    description: 'Personal blog by Naseem Ali. I am interested in your thoughts.',
+    description:
+      'Personal blog by Naseem Ali. I am interested in your thoughts.',
     siteUrl: 'https://naseemali925.github.io/blog',
     social: {
       twitter: '@thisismenaseem',
