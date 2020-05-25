@@ -60,6 +60,7 @@
     "start": "npm run develop",
     "build": "rm -rf public && rm -rf .cache && gatsby build",
     "now-build": "gatsby build",
+    "deploy-gh":"gatsby build --prefix-paths && gh-pages -d public",
     "deploy": "npm run build && cp now.json public/ && cd public && now alias $(now) hayat.js.org",
     "dry": "npm run build && cp now.json public/ && cd public && now",
     "js-to-jsx": "node src/utils/js-to-jsx"

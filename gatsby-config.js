@@ -9,7 +9,7 @@ module.exports = {
       twitter: '@thisismenaseem',
     },
   },
-  pathPrefix: '/',
+  pathPrefix: '/blog',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
