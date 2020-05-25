@@ -9,3 +9,18 @@ To run locally, `npm start`, then `npm run dev`, then open https://localhost:800
 You can translate any article on the website into your language!
 
 Add a Markdown file with the translation to the corresponding article folder. For example `index.fr.md` in `src/pages/optimized-for-change/`.
+
+## Using the CLI
+*Commands*
+
+**Create a new blog post**
+
+`blog create`
+
+**List all blog posts**
+
+`blog list`
+
+**Create a new blog post**
+
+`blog remove post-name`
