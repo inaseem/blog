@@ -1,4 +1,4 @@
-# [hayaat.me](https://hayaat.js.org/)
+# [hayaat.me](https://hayat.js.org/)
 
 My personal blog. Forked from [overreacted.io](https://github.com/gaearon/overreacted.io). Syntax theme based on [Sarah Drasner's Night Owl](https://github.com/sdras/night-owl-vscode-theme/) with small tweaks.
 
@@ -21,6 +21,12 @@ Add a Markdown file with the translation to the corresponding article folder. Fo
 
 `blog list`
 
+*Sample output*
+```
+first-blog 2020-05-24
+second-blog 2020-05-25
+```
+
 **Create a new blog post**
 
-`blog remove post-name`
+`blog remove first-blog`

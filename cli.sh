@@ -14,9 +14,9 @@ function getDirName() {
 }
 
 function runCreate() {
-    read -p "Post title:    " title
-    read -p "Cta:   " cta
-    read -p "Spoiler:   " spoiler
+    read -p "post title => " title
+    read -p "cta => " cta
+    read -p "spoiler => " spoiler
     cd src/pages
     post_dir=$(getDirName ${title})
     echo $post_dir
@@ -31,12 +31,19 @@ EOL
 
 function runDelete() {
     cd src/pages
-    rm -rf "$@"
+    rm -rdv "$@"
 }
 
 function list() {
     cd src/pages
-    echo */
+    # find . -maxdepth 1 -mindepth 1 -type d -printf '%f\n'
+    for dir in */; do
+        dir="${dir%*/}"
+        line=$(grep 'date: ' $dir/index.md)
+        dated=${line//'date: '/''}
+        dated=${dated//"'"/''}
+        echo "$dir  $dated"
+    done
 }
 
 # Commands
@@ -56,8 +63,9 @@ function init() {
         to_delete=$3
         if [ $action = 'remove' ]; then
             if [ -n $to_delete ]; then
-                $(runDelete ${to_delete})
-            else echo "Nothing to delete"
+                runDelete $to_delete
+            else
+                echo "Nothing to delete"
             fi
         fi
     fi
