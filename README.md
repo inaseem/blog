@@ -1,6 +1,6 @@
-# [hayaat.me](https://hayat.js.org/)
+# [hayat.me](https://hayat.js.org/)
 
-My personal blog. Forked from [overreacted.io](https://github.com/gaearon/overreacted.io). Syntax theme based on [Sarah Drasner's Night Owl](https://github.com/sdras/night-owl-vscode-theme/) with small tweaks.
+My personal blog. Forked from [overreacted.io](https://github.com/gaearon/overreacted.io).
 
 To run locally, `npm start`, then `npm run dev`, then open https://localhost:8000.
 
