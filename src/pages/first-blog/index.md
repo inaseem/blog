@@ -1,7 +1,7 @@
 ---
 title: First Blog
 date: '2020-05-24'
-spoiler: This is my first blog.
+spoiler: This is my first blog where I introduce myself and my journey from 2013
 cta: 'react'
 ---
 
@@ -9,11 +9,11 @@ So let me begin by introducing myself. I am **Naseem Ali**,
 
 ![Applaud](applaud.gif)
 
-*continued... :arrow_down:* 
+*continued...* 
 
 an undergrad at DIT University pursuing my bachelors in Computer Science and Engineering. I love sketching and basketball. I also have an interest in experimenting with technology. Sometimes I code, just to get the feeling that I am a Computer Science student. I live in Roorkee, Uttarakhand, India.
 
-*Hope that's enough, anyway you are not going to post a letter on my address* :laughing:
+*Hope that's enough, anyway you are not going to post a letter on my address*
 
 I was introduced to this world of code in year 2013 with the first language as Java. Earlier than that I only used to be a script kiddie. I felt so happy in copying and pasting those BAT files on the School PC. Showed them to my friends and thought **WOW** this is easy.
 
