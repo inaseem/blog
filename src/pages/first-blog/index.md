@@ -21,7 +21,7 @@ When I first started with Java I could not understand anything.
 
 So What? 
 
-*I mugged up code*  :sweat: and tried writing it from memory the next day. But I failed as I forgot the syntax of Java If Else and wrote it like below
+*I mugged up code* and tried writing it from memory the next day. But I failed as I forgot the syntax of Java If Else and wrote it like below
 ```java
 if();{
 

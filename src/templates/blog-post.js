@@ -175,7 +175,7 @@ class BlogPostTemplate extends React.Component {
               )}
             </header>
             <div dangerouslySetInnerHTML={{ __html: html }} />
-            <footer>
+            {/* <footer>
               <p>
                 <a href={discussUrl} target="_blank" rel="noopener noreferrer">
                   Discuss on Twitter
@@ -185,7 +185,7 @@ class BlogPostTemplate extends React.Component {
                   Edit on GitHub
                 </a>
               </p>
-            </footer>
+            </footer> */}
           </article>
         </main>
         <aside>
